@@ -1,0 +1,6 @@
+Veterinario,Região,Data_Visita,Quantidade_Bovinos,Peso_Médio_kg,Vacinas_Administradas,Casos_Doencas,Produção_Leite_Litros
+Dr. João,Sul,2024-11-10,150,350,120,5,1200
+Dr. Maria,Sudeste,2024-11-11,200,400,180,3,1500
+Dr. Paulo,Norte,2024-11-12,180,390,150,4,1400
+Dra. Ana,Centro-Oeste,2024-11-13,220,420,200,2,1600
+Dr. Lucas,Nordeste,2024-11-14,175,380,140,6,1350

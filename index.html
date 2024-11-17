@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Veterinário</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Dashboard Veterinário de Bovinos</h1>
+        </header>
+        <div class="filters">
+            <select id="regionFilter">
+                <option value="All">Todas as Regiões</option>
+                <option value="Sul">Sul</option>
+                <option value="Sudeste">Sudeste</option>
+                <option value="Norte">Norte</option>
+                <option value="Centro-Oeste">Centro-Oeste</option>
+                <option value="Nordeste">Nordeste</option>
+            </select>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <h3>Total de Bovinos</h3>
+                <p id="totalBovinos">-</p>
+            </div>
+            <div class="card">
+                <h3>Produção de Leite</h3>
+                <p id="totalLeite">-</p>
+            </div>
+            <div class="card">
+                <h3>Casos de Doenças</h3>
+                <p id="totalDoencas">-</p>
+            </div>
+        </div>
+        <div class="charts">
+            <canvas id="chart1"></canvas>
+            <canvas id="chart2"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
