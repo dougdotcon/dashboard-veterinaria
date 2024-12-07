@@ -1,8 +1,6 @@
 
 # Dashboard Veterinário de Bovinos
 
-![Dashboard Veterinário](path/to/banner-image.png)
-
 ## Visão Geral
 
 **Dashboard Veterinário de Bovinos** é uma aplicação web desenvolvida para auxiliar veterinários e gestores na monitoração e análise de dados relacionados ao manejo de bovinos. Com uma interface intuitiva, permite filtrar informações por regiões, visualizar estatísticas essenciais e analisar gráficos detalhados sobre a saúde e produção do rebanho.
