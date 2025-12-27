@@ -1,116 +1,100 @@
+# Bovine Cattle Dashboard
 
-# Dashboard Veterinário de Bovinos
+## Overview
 
-## Visão Geral
+The **Bovine Cattle Dashboard** is a web application designed to assist veterinarians and farm managers in monitoring and analyzing data related to cattle management. With an intuitive interface, it allows filtering information by regions, visualizing essential statistics, and analyzing detailed charts regarding the health and production of the herd.
 
-**Dashboard Veterinário de Bovinos** é uma aplicação web desenvolvida para auxiliar veterinários e gestores na monitoração e análise de dados relacionados ao manejo de bovinos. Com uma interface intuitiva, permite filtrar informações por regiões, visualizar estatísticas essenciais e analisar gráficos detalhados sobre a saúde e produção do rebanho.
+## Features
 
-## Funcionalidades
+- **Region Filtering:** Select different regions to view specific data for each area.
+- **Real-time Statistics:**
+  - **Total Cattle:** View the total number of managed cattle.
+  - **Milk Production:** Track daily, weekly, or monthly milk production.
+  - **Disease Cases:** Monitor identified disease cases in the herd.
+  - **Mortality Rate:** Assess the percentage mortality rate of the cattle.
+- **Interactive Charts:** Use dynamic charts for in-depth data analysis.
+- **Responsive Design:** Access the dashboard from any device, whether desktop, tablet, or smartphone.
 
-- **Filtros por Região:** Selecione diferentes regiões para visualizar dados específicos de cada área.
-- **Estatísticas em Tempo Real:**
-  - **Total de Bovinos:** Visualize a quantidade total de bovinos gerenciados.
-  - **Produção de Leite:** Acompanhe a produção diária, semanal ou mensal de leite.
-  - **Casos de Doenças:** Monitore os casos de doenças identificadas no rebanho.
-  - **Taxa de Mortalidade:** Avalie a taxa de mortalidade percentual dos bovinos.
-- **Gráficos Interativos:** Utilize gráficos dinâmicos para uma análise mais aprofundada dos dados.
-- **Design Responsivo:** Acesse o dashboard de qualquer dispositivo, seja desktop, tablet ou smartphone.
-
-## Tecnologias Utilizadas
+## Technologies Used
 
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Chart.js** para a criação de gráficos interativos
+- **Chart.js** for creating interactive charts
 
-## Estrutura do Projeto
+## Project Structure
 
-```
-DashboardVeterinario/
-├── index.html           # Página principal do dashboard
-├── styles.css           # Estilos CSS personalizados
-├── scripts.js           # Scripts JavaScript para funcionalidades
-├── img/                 # Imagens utilizadas no projeto
-├── README.md            # Documentação do projeto
-└── assets/              # Recursos adicionais (fonts, icons, etc.)
-```
 
-## Instalação
+bovine_cattle_dashboard/
+├── index.html           # Main dashboard page
+├── styles.css           # Custom CSS styles
+├── scripts.js           # JavaScript scripts for functionalities
+├── img/                 # Images used in the project
+├── README.md            # Project documentation
+└── assets/              # Additional resources (fonts, icons, etc.)
 
-1. **Clone o Repositório**
 
-   ```bash
-   git clone https://github.com/dougdotcon/DashboardVeterinario.git
-   ```
+## Installation
 
-2. **Navegue até o Diretório do Projeto**
+1. **Clone the Repository**
 
-   ```bash
-   cd DashboardVeterinario
-   ```
+   bash
+   git clone https://github.com/dougdotcon/dashboard-veterinaria.git
+   
 
-3. **Abra o Arquivo `index.html` no Navegador**
+2. **Navigate to the Project Directory**
 
-   Você pode abrir o arquivo diretamente no seu navegador preferido clicando duas vezes sobre ele ou utilizando um servidor local.
+   bash
+   cd bovine_cattle_dashboard
+   
 
-   **Usando um Servidor Local com Python:**
+3. **Open `index.html` in Your Browser**
 
-   ```bash
-   # Para Python 3.x
+   You can open the file directly in your preferred browser by double-clicking it or using a local server.
+
+   **Using a Local Server with Python:**
+
+   bash
+   # For Python 3.x
    python -m http.server 8000
 
-   # Acesse http://localhost:8000 no seu navegador
-   ```
+   # Access http://localhost:8000 in your browser
+   
 
-## Uso
+## Usage
 
-1. **Página Principal (`index.html`)**
+1. **Main Page (`index.html`)**
 
-   - Visualize as estatísticas principais sobre o rebanho de bovinos.
-   - Utilize o filtro de região para segmentar os dados conforme necessário.
-   - Analise os gráficos interativos para obter insights detalhados sobre a saúde e produção dos bovinos.
+   - View the main statistics on the cattle herd.
+   - Use the region filter to segment data as needed.
+   - Analyze interactive charts to gain detailed insights into the health and production of the cattle.
 
-2. **Interação com os Gráficos**
+2. **Interacting with Charts**
 
-   - Passe o cursor sobre os gráficos para visualizar informações específicas.
-   - Ajuste os filtros para ver como os dados se comportam em diferentes regiões.
+   - Hover over the charts to view specific information.
+   - Adjust the filters to see how the data behaves in different regions.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você deseja melhorar este projeto, siga os passos abaixo:
+Contributions are welcome! If you wish to improve this project, follow the steps below:
 
-1. **Fork este Repositório**
-2. **Crie uma Branch para sua Feature**
+1. **Fork this Repository**
+2. **Create a Branch for your Feature**
 
-   ```bash
-   git checkout -b feature/nova-feature
-   ```
+   bash
+   git checkout -b feature/new-feature
+   
 
-3. **Commit suas Alterações**
+3. **Commit your Changes**
 
-   ```bash
-   git commit -m "Adiciona nova feature"
-   ```
+   bash
+   git commit -m "Add new feature"
+   
 
-4. **Push para a Branch**
+4. **Push to the Branch**
 
-   ```bash
-   git push origin feature/nova-feature
-   ```
+   bash
+   git push origin feature/new-feature
+   
 
-5. **Abra um Pull Request**
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
-## Contato
-
-- **Autor:** Douglas H. Machado
-- **Email:** [dougdotcon@gmail.om](mailto:dougdotcon@gmail.om)
-- **LinkedIn:** [dougdoton](https://www.linkedin.com/in/dougdoton/)
-- **GitHub:** [dougdotcon](https://github.com/dougdotcon)
-
----
-
-*Dashboard Veterinário de Bovinos foi desenvolvido para proporcionar uma gestão eficiente e informada dos rebanhos, auxiliando na tomada de decisões estratégicas para a saúde e produtividade dos bovinos.*
+5. **Open a Pull Request**
